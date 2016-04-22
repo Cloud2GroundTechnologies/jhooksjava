@@ -10,29 +10,9 @@ import org.apache.spark.mllib.linalg.Vector;
 import org.apache.spark.mllib.classification.NaiveBayesModel;
 
 /**
- * The goal is to Predict the Onset of Diabetes using Naive Bayes
+ * 
  *
- *
- * Training data 
- * ============= 
- * Each record: has 9 attributes (8 features and an associated classification): 
- * 1. Number of times pregnant 
- * 2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test 
- * 3. Diastolic blood pressure (mm Hg) 
- * 4. Triceps skin fold thickness (mm) 
- * 5. 2-Hour serum insulin (mu U/ml) 
- * 6. Body mass index (weight in kg/(height in m)^2) 
- * 7. Diabetes pedigree function 
- * 8. Age (years) 
- * 9. Class variable (0 or 1); the class value 1 is interpreted as "tested positive for diabetes"
- *
- * The Query Data: 
- * =============== 
- * The query data will have 8 attributes (the first 8 columns except 
- * the classification value).
- *
- *
- * @author Mahmoud Parsian (mahmoud.parsian@yahoo.com)
+ * @author John Hooks code tested by Haibo Chen
  *
  */
 public class PredictDiabetes {
